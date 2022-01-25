@@ -333,8 +333,6 @@ function backBtn() {
 }
 
 function shareText(score) {
-    var date2 = new Date();
-    deviation_time = (date2.getTime() - _date1.getTime())
     SubmitResults();
     if (score <= 49) return '试着好好练一下？';
     if (score <= 99) return 'TCL';
