@@ -337,7 +337,7 @@ function backBtn() {
 function shareText(score) {
     var date2 = new Date();
     deviation_time = (date2.getTime() - _date1.getTime())
-    if (deviation_time > 23000) {
+    if (deviation_time > 33000) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
